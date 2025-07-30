@@ -1,6 +1,6 @@
 package utils
 
-func Contains(lines []string, pattern string) bool {
+func InSlice(lines []string, pattern string) bool {
 	for _, n := range lines {
 		if pattern == n {
 			return true
