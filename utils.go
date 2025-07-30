@@ -9,7 +9,7 @@ func InSlice(lines []string, pattern string) bool {
 	return false
 }
 
-func ContainsInt(numbers []int, pattern int) bool {
+func InSliceInt(numbers []int, pattern int) bool {
 	for _, n := range numbers {
 		if pattern == n {
 			return true
